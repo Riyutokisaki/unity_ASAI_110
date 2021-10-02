@@ -15,11 +15,11 @@ D:/Unity/unity_ASAI_110/test game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62806
+59049
 Successfully changed project path to: D:/Unity/unity_ASAI_110/test game
 D:/Unity/unity_ASAI_110/test game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001759 seconds.
+Registered in 0.001751 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.570 seconds
+- Completed reload, in  1.911 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1577ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1924ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (464ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (215ms)
+			SetupLoadedEditorAssemblies (500ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (61ms)
+				InitializePlatformSupportModulesInManaged (135ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
+				RefreshPlugins (257ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002554 seconds.
+Registered in 0.002553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.887 seconds
+- Completed reload, in  2.376 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1888ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (2386ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1699ms)
-			LoadAssemblies (835ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (1115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (458ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (548ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.0 MB.
 System memory in use after: 93.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 3.345600 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.903100 ms  DeleteObjects: 0.190800 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 3.180400 ms (FindLiveObjects: 0.188500 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.902300 ms  DeleteObjects: 0.024700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1169 +134,601 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(93045d4391fcf214f82acfb1d4b32fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(93045d4391fcf214f82acfb1d4b32fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11456862065b5427d9557cb9c5703b77') in 0.113233 seconds 
-  Import took 0.185850 seconds .
+  path: Assets/調色盤/scene_02_sky.asset
+  artifactKey: Guid(99e1c5b7abaf2e54283f208b5e332307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/scene_02_sky.asset using Guid(99e1c5b7abaf2e54283f208b5e332307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245163ab8ee9c157dbc06dfa4babb67c') in 0.531821 seconds 
+  Import took 0.748788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.787589 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.035500 seconds 
-  Import took 0.137384 seconds .
+  Time since last request: 0.000755 seconds.
+  path: Assets/調色盤/scene_02_floor.asset
+  artifactKey: Guid(6dcd8bc8d1ec48b4c86bffc8ac32d712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/scene_02_floor.asset using Guid(6dcd8bc8d1ec48b4c86bffc8ac32d712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3321cb4778b249d4450f6889b67617') in 0.011659 seconds 
+  Import took 0.045087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.944918 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.029612 seconds 
-  Import took 0.048342 seconds .
+  Time since last request: 0.001395 seconds.
+  path: Assets/調色盤/scene_03_blockTop.asset
+  artifactKey: Guid(f8dba650fc1eef24594eb26307c2b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/scene_03_blockTop.asset using Guid(f8dba650fc1eef24594eb26307c2b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a7f1c393ab1ecc444654f63dbf09d7') in 0.010600 seconds 
+  Import took 0.032513 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.009609 seconds.
-  path: Assets/場景素材
-  artifactKey: Guid(073e7c4e18c7e624094c9eb6c7596064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材 using Guid(073e7c4e18c7e624094c9eb6c7596064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ee1ec9019a466de54cdb60c39f3a8c') in 0.005093 seconds 
-  Import took 0.037623 seconds .
+  Time since last request: 0.000764 seconds.
+  path: Assets/調色盤/scene_03_blockDown.asset
+  artifactKey: Guid(1e3a3a8297a06e744a61e49f4c2a09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/scene_03_blockDown.asset using Guid(1e3a3a8297a06e744a61e49f4c2a09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bd4bfd9e34539505740bb9a5c7621') in 0.009729 seconds 
+  Import took 0.017829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 991.111097 seconds.
-  path: Assets/Sprite Pack
-  artifactKey: Guid(e0b8321f2496945468aee0c404831dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite Pack using Guid(e0b8321f2496945468aee0c404831dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472a7a79b756d42913aacb2a4429f1c3') in 0.002790 seconds 
-  Import took 0.095413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.137047 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly
-  artifactKey: Guid(65b7e44a1c061e64fbcfed41f49f3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly using Guid(65b7e44a1c061e64fbcfed41f49f3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf044995cdb5b4bce769e558e80c900e') in 0.003289 seconds 
-  Import took 0.011276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005614 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly
-  artifactKey: Guid(65b7e44a1c061e64fbcfed41f49f3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly using Guid(65b7e44a1c061e64fbcfed41f49f3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf044995cdb5b4bce769e558e80c900e') in 0.002791 seconds 
-  Import took 0.012903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.565422 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Layouts
-  artifactKey: Guid(1cafee77a92b84c23a45090f03ab467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Layouts using Guid(1cafee77a92b84c23a45090f03ab467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c497188aa9c08e13b30fcc87e0a1545') in 0.002688 seconds 
-  Import took 0.116820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000792 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_02.png
-  artifactKey: Guid(9d767dae290c74b88af71fbd53d94b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_02.png using Guid(9d767dae290c74b88af71fbd53d94b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93fdc8ad49f3475961d4dbf8b8b74d7') in 1.789696 seconds 
-  Import took 1.805903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000843 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_03.png
-  artifactKey: Guid(14d826e163bab479c8ef83c0e4487ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_03.png using Guid(14d826e163bab479c8ef83c0e4487ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d9974e95c38a912746868996d3425a') in 0.077903 seconds 
-  Import took 0.086009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000695 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_01.png
-  artifactKey: Guid(432e89b9cd807416c841d4b23ca9e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Layouts/layout_01.png using Guid(432e89b9cd807416c841d4b23ca9e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea934e0e7f0b1078ee2d42f56c691a5') in 0.085330 seconds 
-  Import took 0.091980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.035998 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots
-  artifactKey: Guid(8053a2b167a064c9ab7b66a6a6173daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots using Guid(8053a2b167a064c9ab7b66a6a6173daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61876179c6cb0de176b665358ee2415f') in 0.003910 seconds 
-  Import took 0.020712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058795 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_01.png
-  artifactKey: Guid(4e258a313a3174bba80b0c15d17cf035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_01.png using Guid(4e258a313a3174bba80b0c15d17cf035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55c5083dedb18df1c8d73ca802e2aa6') in 0.017348 seconds 
-  Import took 0.026519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000929 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_03.png
-  artifactKey: Guid(cd545c82666714e99a7087ce5f46af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_03.png using Guid(cd545c82666714e99a7087ce5f46af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545d333ead261fdb10dc865dc30a48ed') in 0.034115 seconds 
-  Import took 0.046598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000893 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_04.png
-  artifactKey: Guid(3e0f5ca0ec78f4d3291af4bc0755657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_04.png using Guid(3e0f5ca0ec78f4d3291af4bc0755657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff24e9ca3c861ba384b3b23c5fdc22e0') in 0.019161 seconds 
-  Import took 0.030450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000820 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_06.png
-  artifactKey: Guid(643296cfa0022ee4ab22cdc836a7bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_06.png using Guid(643296cfa0022ee4ab22cdc836a7bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aa120d87d0a9c44ac12fe125277ef5') in 0.012980 seconds 
-  Import took 0.019952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000865 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_05.png
-  artifactKey: Guid(7d288411734b8421799179f10bee7b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_05.png using Guid(7d288411734b8421799179f10bee7b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ede50713c19606475169d0b0b3664aa') in 0.026452 seconds 
-  Import took 0.033071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000731 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_02.png
-  artifactKey: Guid(3bf8cba3c73d145428e99e686ffd6766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_02.png using Guid(3bf8cba3c73d145428e99e686ffd6766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380b26c242bffc84ee5795783aeb0f2') in 0.012966 seconds 
-  Import took 0.022071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018206 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_02.png
-  artifactKey: Guid(3bf8cba3c73d145428e99e686ffd6766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Screenshots/ss_02.png using Guid(3bf8cba3c73d145428e99e686ffd6766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380b26c242bffc84ee5795783aeb0f2') in 0.014810 seconds 
-  Import took 0.027139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.815078 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds
-  artifactKey: Guid(35f5fc3c9dd4a43c3bcbb4c6ad51a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds using Guid(35f5fc3c9dd4a43c3bcbb4c6ad51a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6d65ae24b5f85f4b0d6b601f5664d3') in 0.003599 seconds 
-  Import took 0.010608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084982 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Button.wav
-  artifactKey: Guid(af2ca5569671a459b90f25803b7c7b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Button.wav using Guid(af2ca5569671a459b90f25803b7c7b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9410ad7669129baee59a800a6c276516') in 0.674176 seconds 
-  Import took 0.681317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000740 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Score.wav
-  artifactKey: Guid(f2882c866e72c4440a6de6d9326f5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Score.wav using Guid(f2882c866e72c4440a6de6d9326f5a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61556328ea5405fcd6683a5debb21d') in 0.010439 seconds 
-  Import took 0.016879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000761 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Flap.wav
-  artifactKey: Guid(d9d88089ad7524578b2ea096abedc7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Flap.wav using Guid(d9d88089ad7524578b2ea096abedc7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51354ed1b620583494ed09ccf269ace7') in 0.010319 seconds 
-  Import took 0.061430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Jingle.wav
-  artifactKey: Guid(3cdc6258efb344abbbcae0f01dc9f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Jingle.wav using Guid(3cdc6258efb344abbbcae0f01dc9f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d5f44667b77476abda46549abcaf13') in 0.011696 seconds 
-  Import took 0.019845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001654 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Fall.wav
-  artifactKey: Guid(a1f23edc29534489fb22244ec7f299b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Fall.wav using Guid(a1f23edc29534489fb22244ec7f299b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a841e72dd375973f0c3f0781ea5c84') in 0.176350 seconds 
-  Import took 0.186612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Hit.wav
-  artifactKey: Guid(ed249e373679d4a11adc0b58a4477f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sounds/Hit.wav using Guid(ed249e373679d4a11adc0b58a4477f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd772db5020a41cc51a3678155ed572') in 0.011752 seconds 
-  Import took 0.018668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.083914 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player
-  artifactKey: Guid(fabaaf1d8e5d14e5daac2d79d4b62eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player using Guid(fabaaf1d8e5d14e5daac2d79d4b62eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612dbe19974e3978eb424a26350d8f82') in 0.005316 seconds 
-  Import took 0.015044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064059 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/hitEffect.png
-  artifactKey: Guid(91eeae52c43d242b6a4505da7a368bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/hitEffect.png using Guid(91eeae52c43d242b6a4505da7a368bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afe4ede7b8548e13c1abdb74d6bcb9f') in 0.015475 seconds 
-  Import took 0.022318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_hurt_f01.png
-  artifactKey: Guid(d4ce666dc96b048908651438caf741c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_hurt_f01.png using Guid(d4ce666dc96b048908651438caf741c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4c977b6799265e683b6abbbd9e0a64') in 0.035387 seconds 
-  Import took 0.044431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000972 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f03.png
-  artifactKey: Guid(8fac7894279e44facb1b5d346a185c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f03.png using Guid(8fac7894279e44facb1b5d346a185c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf30492856a257432ead750d5d20f192') in 0.012709 seconds 
-  Import took 0.020238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000754 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f02.png
-  artifactKey: Guid(5f6acf41e32064ce9a53830d7851e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f02.png using Guid(5f6acf41e32064ce9a53830d7851e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54602ae91cd2ce088a08bd4912ad0485') in 0.011958 seconds 
-  Import took 0.021053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002277 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f04.png
-  artifactKey: Guid(d52ef9e0b035c4099932038ef280c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f04.png using Guid(d52ef9e0b035c4099932038ef280c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacda46af92b8f3805f59388139f8d11') in 0.023607 seconds 
-  Import took 0.065048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001102 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f01.png
-  artifactKey: Guid(214905f5174f042bcb275821987b81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f01.png using Guid(214905f5174f042bcb275821987b81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe5dbc1c7b6a6abbe8a4964c447b2c5') in 0.012626 seconds 
-  Import took 0.019571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000908 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f02.png
-  artifactKey: Guid(2d960f7c818834a428fed4e198e98c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f02.png using Guid(2d960f7c818834a428fed4e198e98c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27400218e43e6d497e9862a7008579f') in 0.012094 seconds 
-  Import took 0.022652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f03.png
-  artifactKey: Guid(4b55b0ef15bd740558c9edcea4ce6e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_fly_f03.png using Guid(4b55b0ef15bd740558c9edcea4ce6e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749a1a5420c3796d69d579d9c463c127') in 0.013962 seconds 
-  Import took 0.026891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000753 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f01.png
-  artifactKey: Guid(cd9143090423d45dbb80653982e6c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_idle_f01.png using Guid(cd9143090423d45dbb80653982e6c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d299bd78e1ddf08e46427102689d3c') in 0.020100 seconds 
-  Import took 0.029742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025207 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_ko_f01.png
-  artifactKey: Guid(a941a477ecc9e49f8bb98067cd3badbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Player/player_ko_f01.png using Guid(a941a477ecc9e49f8bb98067cd3badbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd186860b90099bf6b0ca3bf26ee83c8d') in 0.015254 seconds 
-  Import took 0.024272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.560909 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites
-  artifactKey: Guid(9f5119aafd5e841c6bf09cb0b7903959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites using Guid(9f5119aafd5e841c6bf09cb0b7903959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c775cbf58c977309009324d593eeb659') in 0.002632 seconds 
-  Import took 0.011220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.924714 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background
-  artifactKey: Guid(0585cbc95ece5464090e3683f3d0afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background using Guid(0585cbc95ece5464090e3683f3d0afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa92881d6639cad198ccf494e913111c') in 0.002852 seconds 
-  Import took 0.011772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000912 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_cradle.png
-  artifactKey: Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_cradle.png using Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c4e2ea6321433e09087d1dae189e82') in 0.032226 seconds 
-  Import took 0.045409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001077 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_floor.png
+  Time since last request: 38.814688 seconds.
+  path: Assets/場景素材/Background/scene_01_floor.png
   artifactKey: Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53be1c1579c1da0b07d0196bcf22502') in 0.016159 seconds 
-  Import took 0.024443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000991 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_forground.png
-  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261532c82b0241c1b7b937e6864bdc4d') in 0.012007 seconds 
-  Import took 0.020281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000799 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_pandulum.png
-  artifactKey: Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_pandulum.png using Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451e2ae6951b0de0d99d85cdc1852ef7') in 0.014344 seconds 
-  Import took 0.043252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000959 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_background.png
-  artifactKey: Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_background.png using Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b280e8e21a1317f01200e792afe6014b') in 0.012848 seconds 
-  Import took 0.019692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000681 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_background.png
-  artifactKey: Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_background.png using Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6eb04d8d83f381a7df87fec966ed17') in 0.016963 seconds 
-  Import took 0.033875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000969 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_cloud.png
-  artifactKey: Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_cloud.png using Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea40738dd8bb6c486ff48a5d248df8d') in 0.013706 seconds 
-  Import took 0.026615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_sky.png
-  artifactKey: Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_sky.png using Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e952233b6755f1e693ab7d0f53a636e5') in 0.017391 seconds 
-  Import took 0.033447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000702 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_blockDown.png
-  artifactKey: Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_blockDown.png using Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1766cb4ddcb46191eea69a828bdefc20') in 0.019781 seconds 
-  Import took 0.048079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000988 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_blockTop.png
-  artifactKey: Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_blockTop.png using Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e392935affd8316486c7e3fb0c2526') in 0.040000 seconds 
-  Import took 0.048843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001057 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_midground.png
-  artifactKey: Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_01_midground.png using Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee8d8b8c89a4eae4e8e85977c5cbc7d') in 0.012734 seconds 
-  Import took 0.019854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.204362 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_blockDown.png
-  artifactKey: Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_blockDown.png using Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b050e31b82f4834bebfcad35876b2c19') in 0.012459 seconds 
-  Import took 0.019092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_blockTop.png
-  artifactKey: Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_blockTop.png using Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ff3e871c58e56a29e13ec8aeae4bbe') in 0.016315 seconds 
-  Import took 0.097290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000812 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_floor.png
-  artifactKey: Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_floor.png using Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e667be079d6971936741772f8df0a00') in 0.133091 seconds 
-  Import took 0.429523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000746 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_cloud.png
-  artifactKey: Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_cloud.png using Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c0e31ec5dec12f138ca08c8c9ffed4') in 0.015834 seconds 
-  Import took 0.027829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001099 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_cradle.png
-  artifactKey: Guid(4bcca07cf7c3347dd93e87889d46874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/Background/scene_02_cradle.png using Guid(4bcca07cf7c3347dd93e87889d46874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aded373a8a8388b11131976cb2f4f712') in 0.013926 seconds 
-  Import took 0.048488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.997485 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_back.png
-  artifactKey: Guid(37da3101d74f045d1a246336168fc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_back.png using Guid(37da3101d74f045d1a246336168fc3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f27f88a879d86dfdf7ff44c74e0c3c2') in 0.038238 seconds 
-  Import took 0.060829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001050 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_02.png
-  artifactKey: Guid(19f8e7e9938114a3a9219c7f3b10aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_02.png using Guid(19f8e7e9938114a3a9219c7f3b10aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78186885406993982ee3d481b0783eb') in 0.026213 seconds 
-  Import took 0.036284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001019 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_01.png
-  artifactKey: Guid(52489874b78c8447286e2f61063c6f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_01.png using Guid(52489874b78c8447286e2f61063c6f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1996d9ad169f9afca1fc5eb99129480c') in 0.015228 seconds 
-  Import took 0.043345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025929 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_play.png
-  artifactKey: Guid(3b85165a4b6bb41e59a3894e763eaf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_play.png using Guid(3b85165a4b6bb41e59a3894e763eaf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f2dc4dbd7fe039be13cb4ee129d2b8') in 0.040430 seconds 
-  Import took 0.051096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001032 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_03.png
-  artifactKey: Guid(34c8f6831cfa14779bd8c97bb640d044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/medal_03.png using Guid(34c8f6831cfa14779bd8c97bb640d044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4d69921c9397105da8ed707ea4b639') in 0.030455 seconds 
-  Import took 0.041978 seconds .
+Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c248d1c03c86042937f8399c9ece8c7') in 0.405432 seconds 
+  Import took 0.453617 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.001079 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_gameOver.png
-  artifactKey: Guid(d0bcc4c8752544b5f930cc1e5b1af46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_gameOver.png using Guid(d0bcc4c8752544b5f930cc1e5b1af46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fd8c215f4fd6d8951940d3340693b2') in 0.017456 seconds 
-  Import took 0.029728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001003 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_removeads.png
-  artifactKey: Guid(357e63c3be8f146e9abe32abc854a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_removeads.png using Guid(357e63c3be8f146e9abe32abc854a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2030027218918f9f3012e332b1199f5') in 0.015601 seconds 
-  Import took 0.043986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000942 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_selectPlayer.png
-  artifactKey: Guid(dd0cdf0647c1c4c349242b6963b4a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_selectPlayer.png using Guid(dd0cdf0647c1c4c349242b6963b4a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa85da7d9701415e53dd63d67711dda') in 0.015208 seconds 
-  Import took 0.033956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000905 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/new.png
-  artifactKey: Guid(7064812098a644ebfbca36863c3e4ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/new.png using Guid(7064812098a644ebfbca36863c3e4ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634ca9c8a62a47f6368e997723e961cd') in 0.015911 seconds 
-  Import took 0.025756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000895 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_rate.png
-  artifactKey: Guid(2787875e172594236821f59a68171fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_rate.png using Guid(2787875e172594236821f59a68171fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd86cd5600a1c68fe3b03d13fdb36c4') in 0.014968 seconds 
-  Import took 0.050541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001078 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_rank.png
-  artifactKey: Guid(768843c912ef04f84b6df5af438bbfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/button_rank.png using Guid(768843c912ef04f84b6df5af438bbfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73cf9a9dc9393d406f36acec53d0036') in 0.040915 seconds 
-  Import took 0.049668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.557423 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI
-  artifactKey: Guid(c456ef2788e8e487da0e2fafa4501c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI using Guid(c456ef2788e8e487da0e2fafa4501c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ca2af144cfc17c8888c864b070c0bc') in 0.004373 seconds 
-  Import took 0.014139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.077552 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_getReady.png
-  artifactKey: Guid(9ed54c842d8cd45b68915a1e890adec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_getReady.png using Guid(9ed54c842d8cd45b68915a1e890adec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8e7cd6ee68af7a1ea28032786cf0f9') in 0.041261 seconds 
-  Import took 0.049336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000855 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_highScore.png
-  artifactKey: Guid(d97ab0d572c7349969b822560a9ae70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_highScore.png using Guid(d97ab0d572c7349969b822560a9ae70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b85c1ac1e8cc2d2de493dee08f510a') in 0.028913 seconds 
-  Import took 0.038074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000887 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_playScore.png
-  artifactKey: Guid(47a0c7f6050ce416e88f1a9ca11ebe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_playScore.png using Guid(47a0c7f6050ce416e88f1a9ca11ebe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90121bfdc1daec47483cb6a5e1567bc4') in 0.015723 seconds 
-  Import took 0.025214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035503 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/title.png
-  artifactKey: Guid(c2dd35b438342425a90040332d37fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/title.png using Guid(c2dd35b438342425a90040332d37fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e002f80e787d0549d074af887324f') in 0.016766 seconds 
-  Import took 0.036829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001031 seconds.
-  path: Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_playScore.png
-  artifactKey: Guid(47a0c7f6050ce416e88f1a9ca11ebe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Sprite Pack/Tap and Fly/Sprites/GUI/text_playScore.png using Guid(47a0c7f6050ce416e88f1a9ca11ebe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90121bfdc1daec47483cb6a5e1567bc4') in 0.015786 seconds 
-  Import took 0.027382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 157.524809 seconds.
-  path: Assets/場景素材/Background/scene_02_forground.png
-  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b02a1563ab4a2f9a1323a7fb2acce9f') in 0.011680 seconds 
-  Import took 0.021194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.332434 seconds.
-  path: Assets/場景素材/Background/scene_02_midground.png
-  artifactKey: Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_midground.png using Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0cae807066770ca6703c3da39e04c1') in 0.011534 seconds 
-  Import took 0.022053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.461576 seconds.
-  path: Assets/場景素材/Background/scene_02_pandulum.png
-  artifactKey: Guid(0c9d428d9b3d941bfbfc1028c9d057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_pandulum.png using Guid(0c9d428d9b3d941bfbfc1028c9d057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dac2589504ae508fbad618caf8fc216') in 0.012953 seconds 
-  Import took 0.021562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.132489 seconds.
-  path: Assets/場景素材/Background/scene_02_sky.png
-  artifactKey: Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_sky.png using Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b37d80918566ec70418a0ef9a9cc6f') in 0.010932 seconds 
-  Import took 0.018834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.161002 seconds.
-  path: Assets/場景素材/Background/scene_03_background.png
-  artifactKey: Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_background.png using Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d5ad75ba330b72b4035a8ab2c568e') in 0.011644 seconds 
-  Import took 0.020730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.329118 seconds.
-  path: Assets/場景素材/Background/scene_03_blockDown.png
-  artifactKey: Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockDown.png using Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe5c420bcc8c86f7c37cca90dc11ad') in 0.010082 seconds 
-  Import took 0.017531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.248555 seconds.
-  path: Assets/場景素材/Background/scene_03_blockTop.png
-  artifactKey: Guid(488a927f283ec489386db667c5b0939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockTop.png using Guid(488a927f283ec489386db667c5b0939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27d0911bdbfcf40c708ab85fcc7109') in 0.029949 seconds 
-  Import took 0.038400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014208 seconds.
-  path: Assets/場景素材/Background/scene_03_cloud.png
-  artifactKey: Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_cloud.png using Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0735aea56e4c4f59eb262ad517bfbd') in 0.012739 seconds 
-  Import took 0.026749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029635 seconds.
-  path: Assets/場景素材/Background/scene_03_cradle.png
-  artifactKey: Guid(9561083a2394148b9b42e4f0d046636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_cradle.png using Guid(9561083a2394148b9b42e4f0d046636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c21ce023b1bdb3f6145dbf7f732279') in 0.262396 seconds 
-  Import took 0.481983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000985 seconds.
   path: Assets/場景素材/Background/scene_03_floor.png
   artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c8e437d1334f1bc9df80d0b18b188e') in 0.012994 seconds 
-  Import took 0.026671 seconds .
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0854f15a8684bdda9b1842c437df4ee1') in 0.016013 seconds 
+  Import took 0.035618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/場景素材/Background/scene_03_forground.png
-  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c893989b4d5ac6c6de74512c9d529647') in 0.018906 seconds 
-  Import took 0.027697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.967520 seconds.
-  path: Assets/場景素材/Background/scene_03_midground.png
-  artifactKey: Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_midground.png using Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e5b3365ad6e1a77e0c141731609969') in 0.011790 seconds 
-  Import took 0.043545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076955 seconds.
-  path: Assets/場景素材/Background/scene_03_pandulum.png
-  artifactKey: Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_pandulum.png using Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba118a84f306a35785b4f3fb6bb4d3') in 0.011978 seconds 
-  Import took 0.137698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000972 seconds.
-  path: Assets/場景素材/Background/scene_03_sky.png
-  artifactKey: Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_sky.png using Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a86c532dddbfd165ca2e630a5b43519') in 0.013517 seconds 
-  Import took 0.023770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000759 seconds.
-  path: Assets/場景素材/Background/scene_03_pandulum.png
-  artifactKey: Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_pandulum.png using Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba118a84f306a35785b4f3fb6bb4d3') in 0.013635 seconds 
-  Import took 0.021639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/場景素材/Background/scene_03_sky.png
-  artifactKey: Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_sky.png using Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a86c532dddbfd165ca2e630a5b43519') in 0.011652 seconds 
-  Import took 0.022670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 157.589593 seconds.
-  path: Assets/場景素材/GUI/tutorial_01.png
-  artifactKey: Guid(652e3eeea9e934c11a685d200fd8b786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GUI/tutorial_01.png using Guid(652e3eeea9e934c11a685d200fd8b786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fde91172611a8cdfc6def58d3ea24c7') in 0.032612 seconds 
-  Import took 0.102611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000865 seconds.
-  path: Assets/場景素材/GUI/tutorial_02.png
-  artifactKey: Guid(58ac8f740a7bf45edbdd0aaf47847b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GUI/tutorial_02.png using Guid(58ac8f740a7bf45edbdd0aaf47847b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6fc3dc83c96887a8a987b0209d883') in 0.019068 seconds 
-  Import took 0.064616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001083 seconds.
-  path: Assets/場景素材/GUI/window_score.png
-  artifactKey: Guid(e372381e8b4d14e3e81ab4eaabddbef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/GUI/window_score.png using Guid(e372381e8b4d14e3e81ab4eaabddbef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579da41350ed428f1469f0469a7d875c') in 0.016571 seconds 
-  Import took 0.065114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 175.008223 seconds.
-  path: Assets/場景素材/Background/scene_02_forground.png
-  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f43f7f813a0ae89a44223f90f4e7f') in 0.057022 seconds 
-  Import took 0.064500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014078 seconds.
-  path: Assets/場景素材/Background/scene_01_background.png
-  artifactKey: Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_background.png using Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a443e40939855412d7c37ba4a2f0a9') in 0.023774 seconds 
-  Import took 0.031694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000815 seconds.
+  Time since last request: 15.909285 seconds.
   path: Assets/場景素材/Background/scene_01_floor.png
   artifactKey: Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8333b19cd884f25e00e8a6db8ac320') in 0.018012 seconds 
-  Import took 0.028072 seconds .
+Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8e06d9c45d3c0b43e3d5b6e3e5f95f') in 0.035456 seconds 
+  Import took 0.060379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001114 seconds.
-  path: Assets/場景素材/Background/scene_01_forground.png
-  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8745a10a0ab77904d3f796a2981e45') in 0.010306 seconds 
-  Import took 0.018788 seconds .
+  Time since last request: 0.000771 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2de0e62f57ae047f7462a9fcccc8d2') in 0.012634 seconds 
+  Import took 0.022263 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000882 seconds.
-  path: Assets/場景素材/Background/scene_01_cradle.png
-  artifactKey: Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_cradle.png using Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccb843057f30b46f53e81e1e635d907') in 0.015802 seconds 
-  Import took 0.049018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/場景素材/Background/scene_01_pandulum.png
-  artifactKey: Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_pandulum.png using Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4085769094630082894868806fc007a') in 0.022702 seconds 
-  Import took 0.030613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/場景素材/Background/scene_02_background.png
-  artifactKey: Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_background.png using Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029cb92360bae407c23beb1bcdce16c4') in 0.015159 seconds 
-  Import took 0.034555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000749 seconds.
-  path: Assets/場景素材/Background/scene_01_cloud.png
-  artifactKey: Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_cloud.png using Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005fd028753133325931defd45a6a42d') in 0.014675 seconds 
-  Import took 0.025478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002229 seconds.
-  path: Assets/場景素材/Background/scene_01_sky.png
-  artifactKey: Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_sky.png using Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18b102c4687ae46e0df4342b3b2bb0d') in 0.018229 seconds 
-  Import took 0.443455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000900 seconds.
-  path: Assets/場景素材/Background/scene_01_blockDown.png
-  artifactKey: Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_blockDown.png using Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42737016c93c0678e9fb2391c2e9dcb4') in 0.019754 seconds 
-  Import took 0.292717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001262 seconds.
-  path: Assets/場景素材/Background/scene_01_blockTop.png
-  artifactKey: Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_blockTop.png using Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a1ad2007efeae29e8a7dedf5595ee5') in 0.025965 seconds 
-  Import took 0.175562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001189 seconds.
-  path: Assets/場景素材/Background/scene_01_midground.png
-  artifactKey: Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_midground.png using Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7501841d67c684ab56793df5d4ddd9') in 0.032591 seconds 
-  Import took 0.221901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1186.925605 seconds.
-  path: Assets/場景素材/Background/scene_01_background.png
-  artifactKey: Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_background.png using Guid(5fd9c87cdfba74db0b7061f49834ca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0986703e4275260b2d4fb5faea307') in 0.023371 seconds 
-  Import took 0.038768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
+  Time since last request: 10.006286 seconds.
   path: Assets/場景素材/Background/scene_01_floor.png
   artifactKey: Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db314ad2f4ae29909c2395e675c261b9') in 0.015988 seconds 
-  Import took 0.036667 seconds .
+Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2ec4287ba0394cb9f062894958d82d') in 0.014475 seconds 
+  Import took 0.049356 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/場景素材/Background/scene_01_forground.png
-  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d54c266a61ed2bef964a39055f8b70') in 0.011503 seconds 
-  Import took 0.043100 seconds .
+  Time since last request: 0.000956 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378e8c6327c0c1e1096f12eae22fcaf9') in 0.011495 seconds 
+  Import took 0.061502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001500 seconds.
-  path: Assets/場景素材/Background/scene_01_cradle.png
-  artifactKey: Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_cradle.png using Guid(905e113a409864b458cbc4468fe261b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9254820a6900b7166d8ade59a91dc5') in 0.015171 seconds 
-  Import took 0.024632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001246 seconds.
-  path: Assets/場景素材/Background/scene_02_forground.png
-  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53a1dd32b9e80148ff89b180784a176') in 0.013195 seconds 
-  Import took 0.022932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000758 seconds.
-  path: Assets/場景素材/Background/scene_01_pandulum.png
-  artifactKey: Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_pandulum.png using Guid(9c329dafe37914ed5a7eb4d13c42b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba5323c6679cc029629b7b5a1d86c21') in 0.033978 seconds 
-  Import took 0.041585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000995 seconds.
-  path: Assets/場景素材/Background/scene_02_background.png
-  artifactKey: Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_background.png using Guid(bba228e370fa24e1390603bbea08e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd6f550ac91e306227aff9f22461b7b') in 0.015503 seconds 
-  Import took 0.032384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000705 seconds.
-  path: Assets/場景素材/Background/scene_01_cloud.png
-  artifactKey: Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_cloud.png using Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a74f67871df2ba6076763f183d9b11') in 0.023473 seconds 
-  Import took 0.037259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000726 seconds.
-  path: Assets/場景素材/Background/scene_01_sky.png
-  artifactKey: Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_sky.png using Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2d7fd49b7fd1cf58b80eba8a9c709') in 0.013728 seconds 
-  Import took 0.054098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000835 seconds.
-  path: Assets/場景素材/Background/scene_01_blockDown.png
-  artifactKey: Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_blockDown.png using Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f3c26ac9a9af08fba6d48b7896ba6') in 0.013384 seconds 
-  Import took 0.033159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000675 seconds.
-  path: Assets/場景素材/Background/scene_01_blockTop.png
-  artifactKey: Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_blockTop.png using Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5995e73857de3acb276617aea08d505a') in 0.011112 seconds 
-  Import took 0.027326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/場景素材/Background/scene_01_midground.png
-  artifactKey: Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_01_midground.png using Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debc0b362c2fc12ff3f1bf5186cd0ee7') in 0.018323 seconds 
-  Import took 0.028104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.546342 seconds.
-  path: Assets/場景素材/Background/scene_02_blockDown.png
-  artifactKey: Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_blockDown.png using Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a691122c7dd433651378d5264916c0cb') in 0.014693 seconds 
-  Import took 0.024626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000888 seconds.
-  path: Assets/場景素材/Background/scene_02_blockTop.png
-  artifactKey: Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_blockTop.png using Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ebf7348cb72930587f2654d2d1f14') in 0.012197 seconds 
-  Import took 0.022052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000706 seconds.
+  Time since last request: 142.535993 seconds.
   path: Assets/場景素材/Background/scene_02_floor.png
   artifactKey: Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_floor.png using Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745454bea6291be12877d58a519e3b77') in 0.015513 seconds 
-  Import took 0.026346 seconds .
+Start importing Assets/場景素材/Background/scene_02_floor.png using Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb5b90516b2c1ea035226c4f02bf759') in 0.020306 seconds 
+  Import took 0.060070 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001077 seconds.
-  path: Assets/場景素材/Background/scene_02_blockTop.png
-  artifactKey: Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_blockTop.png using Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ebf7348cb72930587f2654d2d1f14') in 0.014248 seconds 
-  Import took 0.026995 seconds .
+  Time since last request: 39.843393 seconds.
+  path: Assets/場景素材/Background/scene_01_blockDown.png
+  artifactKey: Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_blockDown.png using Guid(6ccb1758ecaf7406f9f870d7501ef595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723bbe9a8366bbf23a130ac9f6a137da') in 0.013883 seconds 
+  Import took 0.026198 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000702 seconds.
-  path: Assets/場景素材/Background/scene_02_cloud.png
-  artifactKey: Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_cloud.png using Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a640ff98133715b5ccf199d40dc2f') in 0.016883 seconds 
-  Import took 0.037197 seconds .
+  Time since last request: 0.057671 seconds.
+  path: Assets/場景素材/Background/scene_03_blockDown.png
+  artifactKey: Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_blockDown.png using Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffde60e509f68d8c1b97cb84974a477e') in 0.027671 seconds 
+  Import took 0.078140 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000920 seconds.
-  path: Assets/場景素材/Background/scene_02_cradle.png
-  artifactKey: Guid(4bcca07cf7c3347dd93e87889d46874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_cradle.png using Guid(4bcca07cf7c3347dd93e87889d46874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37666a2739fde72b0374af976cbe53c1') in 0.013545 seconds 
-  Import took 0.028186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065647 seconds.
-  path: Assets/場景素材/Background/scene_02_midground.png
-  artifactKey: Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_midground.png using Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3db71a1aeb218fe8ca14583be5b0b03') in 0.010070 seconds 
-  Import took 0.038566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000980 seconds.
-  path: Assets/場景素材/Background/scene_02_sky.png
-  artifactKey: Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_sky.png using Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4081984f1bd280abfa8e5a10745b471') in 0.015220 seconds 
-  Import took 0.024744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001562 seconds.
-  path: Assets/場景素材/Background/scene_03_cradle.png
-  artifactKey: Guid(9561083a2394148b9b42e4f0d046636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_cradle.png using Guid(9561083a2394148b9b42e4f0d046636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2c3ae3d596d5d3699584a0eb03f9de') in 0.013816 seconds 
-  Import took 0.022446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001019 seconds.
-  path: Assets/場景素材/Background/scene_02_midground.png
-  artifactKey: Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_midground.png using Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3db71a1aeb218fe8ca14583be5b0b03') in 0.013140 seconds 
-  Import took 0.022413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000942 seconds.
-  path: Assets/場景素材/Background/scene_02_pandulum.png
-  artifactKey: Guid(0c9d428d9b3d941bfbfc1028c9d057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_02_pandulum.png using Guid(0c9d428d9b3d941bfbfc1028c9d057ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec178b93b2ae4574198e6ffd8a702a49') in 0.014854 seconds 
-  Import took 0.024433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000734 seconds.
+  Time since last request: 0.000802 seconds.
   path: Assets/場景素材/Background/scene_03_blockTop.png
   artifactKey: Guid(488a927f283ec489386db667c5b0939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockTop.png using Guid(488a927f283ec489386db667c5b0939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6399fec4aaddd166498e2960cdf94a8b') in 0.030701 seconds 
-  Import took 0.038268 seconds .
+Start importing Assets/場景素材/Background/scene_03_blockTop.png using Guid(488a927f283ec489386db667c5b0939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ffeb3ee3f0b4ef7fa37765298206bf') in 0.011138 seconds 
+  Import took 0.079618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/場景素材/Background/scene_03_cloud.png
-  artifactKey: Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_cloud.png using Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6387670ed5b16126f469a9537adb14d') in 0.015007 seconds 
-  Import took 0.022975 seconds .
+  Time since last request: 74.686133 seconds.
+  path: Assets/場景素材/Background/scene_02_sky.png
+  artifactKey: Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_sky.png using Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239b82cb21897d4d9c2c3e6cd484408') in 0.011709 seconds 
+  Import took 0.038324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000738 seconds.
-  path: Assets/場景素材/Background/scene_03_background.png
-  artifactKey: Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_background.png using Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0f4c6910644193f4f55251d42fd779') in 0.013801 seconds 
-  Import took 0.033247 seconds .
+  Time since last request: 0.019601 seconds.
+  path: Assets/場景素材/Background/scene_02_sky.png
+  artifactKey: Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_sky.png using Guid(0944a933f30374e96bd409d2937b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239b82cb21897d4d9c2c3e6cd484408') in 0.015720 seconds 
+  Import took 0.025212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000583 seconds.
-  path: Assets/場景素材/Background/scene_03_blockDown.png
-  artifactKey: Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockDown.png using Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06acb7c08a4d66033446b6358cf6d0d0') in 0.014667 seconds 
-  Import took 0.026800 seconds .
+  Time since last request: 7.384068 seconds.
+  path: Assets/場景素材/Background/scene_02_blockTop.png
+  artifactKey: Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_blockTop.png using Guid(3dcfeb4e7a2944375a9be7104a627aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78675c75b44703394a4731d96d9bae11') in 0.010541 seconds 
+  Import took 0.129470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006620 seconds.
-  path: Assets/場景素材/Background/scene_03_blockDown.png
-  artifactKey: Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockDown.png using Guid(760e7ecffc8de446584d3ff986d443a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06acb7c08a4d66033446b6358cf6d0d0') in 0.014131 seconds 
-  Import took 0.022248 seconds .
+  Time since last request: 0.365796 seconds.
+  path: Assets/場景素材/Background/scene_02_blockDown.png
+  artifactKey: Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_blockDown.png using Guid(0f6a7882cf22d4c5ebba68436a691769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abdfa6fbe7f8252d3f135feb8fb5729') in 0.011200 seconds 
+  Import took 0.039151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001659 seconds.
-  path: Assets/場景素材/Background/scene_03_floor.png
-  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18daad18f5c355b632971627f326dbff') in 0.014822 seconds 
-  Import took 0.035421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000599 seconds.
+  Time since last request: 7.020436 seconds.
   path: Assets/場景素材/Background/scene_03_sky.png
   artifactKey: Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_sky.png using Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43702efe28d0f745a2f122c601883129') in 0.013296 seconds 
-  Import took 0.033437 seconds .
+Start importing Assets/場景素材/Background/scene_03_sky.png using Guid(7eb86768316e2410daa920369f670cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6756de80988a42d18647ba2ad5cbb885') in 0.010910 seconds 
+  Import took 0.067444 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000741 seconds.
+  Time since last request: 0.000876 seconds.
+  path: Assets/場景素材/Background/scene_01_sky.png
+  artifactKey: Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_sky.png using Guid(7cb57df7cfee2419ba96db62d38af1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ee96102939a0c9810ac5345d90c423') in 0.013869 seconds 
+  Import took 0.076135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.166164 seconds.
+  path: Assets/場景素材/Background/scene_01_midground.png
+  artifactKey: Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_midground.png using Guid(dccb94cee21ea41e480d558e82004293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee456562e91d389d35d7fffc5ba844b') in 0.012648 seconds 
+  Import took 0.045485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.575127 seconds.
+  path: Assets/場景素材/Background/scene_01_forground.png
+  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a80d190f5d1461887657ebe51e130') in 0.012336 seconds 
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027486 seconds.
+  path: Assets/場景素材/Background/scene_01_forground.png
+  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a80d190f5d1461887657ebe51e130') in 0.011228 seconds 
+  Import took 0.022263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.015295 seconds.
+  path: Assets/場景素材/Background/scene_01_blockTop.png
+  artifactKey: Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_blockTop.png using Guid(3b83e575dea214da2b89ecd97dcc8d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b189aa690edde231b7e27474761d3149') in 0.011213 seconds 
+  Import took 0.266191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.511769 seconds.
+  path: Assets/場景素材/Background/scene_01_cloud.png
+  artifactKey: Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_cloud.png using Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca654402c8d2216e84c3f60996f7c89') in 0.015084 seconds 
+  Import took 0.042270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017362 seconds.
+  path: Assets/場景素材/Background/scene_01_cloud.png
+  artifactKey: Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_cloud.png using Guid(cf02c0b33e7404362841a4adcb8742f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca654402c8d2216e84c3f60996f7c89') in 0.016289 seconds 
+  Import took 0.026693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.855907 seconds.
+  path: Assets/場景素材/Background/scene_02_cloud.png
+  artifactKey: Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_cloud.png using Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377875abcd90cbf87f4c977b329eb78c') in 0.013711 seconds 
+  Import took 0.023018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038147 seconds.
+  path: Assets/場景素材/Background/scene_02_cloud.png
+  artifactKey: Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_cloud.png using Guid(295de526cba4841bdbffa1820f841752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377875abcd90cbf87f4c977b329eb78c') in 0.016385 seconds 
+  Import took 0.039470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.026465 seconds.
+  path: Assets/場景素材/Background/scene_02_forground.png
+  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5950b0bd1a4b3081c18684d694cf95') in 0.008254 seconds 
+  Import took 0.062116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.127855 seconds.
+  path: Assets/場景素材/Background/scene_02_midground.png
+  artifactKey: Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_midground.png using Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e9171b8181ea2a438d011ef2428a0e') in 0.036990 seconds 
+  Import took 0.047153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010732 seconds.
+  path: Assets/場景素材/Background/scene_02_midground.png
+  artifactKey: Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_midground.png using Guid(f77ebe487a56245c093312a281006b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e9171b8181ea2a438d011ef2428a0e') in 0.013057 seconds 
+  Import took 0.024268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.625308 seconds.
+  path: Assets/場景素材/Background/scene_03_background.png
+  artifactKey: Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_background.png using Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe7094a35452c26312406524f833dc9') in 0.012043 seconds 
+  Import took 0.041183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013753 seconds.
+  path: Assets/場景素材/Background/scene_03_background.png
+  artifactKey: Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_background.png using Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe7094a35452c26312406524f833dc9') in 0.013974 seconds 
+  Import took 0.026009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.980105 seconds.
+  path: Assets/場景素材/Background/scene_03_cloud.png
+  artifactKey: Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_cloud.png using Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce6af0172f965d4fd25148e678d26c') in 0.011496 seconds 
+  Import took 0.021966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038052 seconds.
+  path: Assets/場景素材/Background/scene_03_cloud.png
+  artifactKey: Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_cloud.png using Guid(bc6f1e175debf4139a4fd501c8ef6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce6af0172f965d4fd25148e678d26c') in 0.013942 seconds 
+  Import took 0.023170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.019184 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4394589f547db9cf8fc238c99f39d') in 0.008736 seconds 
+  Import took 0.018843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059400 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4394589f547db9cf8fc238c99f39d') in 0.012567 seconds 
+  Import took 0.023586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.433699 seconds.
   path: Assets/場景素材/Background/scene_03_midground.png
   artifactKey: Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_midground.png using Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33390bc772eabadbcc942864d1ac9a1') in 0.013286 seconds 
-  Import took 0.027834 seconds .
+Start importing Assets/場景素材/Background/scene_03_midground.png using Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57418ea630bc13a9918082c4b167fa53') in 0.011574 seconds 
+  Import took 0.036518 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/場景素材/Background/scene_03_pandulum.png
-  artifactKey: Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_pandulum.png using Guid(030b65d4567e941f4b514ca7248921ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e0a81bd480d7b384be757dba2b8b9e') in 0.016424 seconds 
-  Import took 0.049077 seconds .
+  Time since last request: 0.040152 seconds.
+  path: Assets/場景素材/Background/scene_03_midground.png
+  artifactKey: Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_midground.png using Guid(eefc064ba6b0f4db8b33f265c9d1d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57418ea630bc13a9918082c4b167fa53') in 0.010515 seconds 
+  Import took 0.019982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000711 seconds.
+  Time since last request: 213.068350 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9108ac2f0ee9a04391670262da8aa3a') in 0.020187 seconds 
+  Import took 0.033003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023169 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9108ac2f0ee9a04391670262da8aa3a') in 0.015640 seconds 
+  Import took 0.025000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.418762 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3530e179b12ea7c70e46ada935e523') in 0.013258 seconds 
+  Import took 0.023273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028338 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3530e179b12ea7c70e46ada935e523') in 0.011870 seconds 
+  Import took 0.019534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.945032 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9a346d12b655a20a5a86fdfcb93cdd') in 0.016803 seconds 
+  Import took 0.027219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031049 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9a346d12b655a20a5a86fdfcb93cdd') in 0.014374 seconds 
+  Import took 0.022109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.334483 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18485fd9d21a3929505b39c248b5a767') in 0.011321 seconds 
+  Import took 0.040918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023278 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18485fd9d21a3929505b39c248b5a767') in 0.013372 seconds 
+  Import took 0.028573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.689426 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46270132d4e7cdaaee89cb81b20dbc58') in 0.013629 seconds 
+  Import took 0.050559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.863417 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300c42c2f0f758abff14a47c9efdf21e') in 0.011935 seconds 
+  Import took 0.033851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020863 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300c42c2f0f758abff14a47c9efdf21e') in 0.027057 seconds 
+  Import took 0.040223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.367817 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f57528e4814b5996180b7c9311f0fb') in 0.012067 seconds 
+  Import took 0.039089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009700 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f57528e4814b5996180b7c9311f0fb') in 0.014651 seconds 
+  Import took 0.024382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.814349 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f148f0547226e0df69667903b3bdc53') in 0.012897 seconds 
+  Import took 0.043330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005400 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f148f0547226e0df69667903b3bdc53') in 0.015608 seconds 
+  Import took 0.028193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.748721 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dbb7c80c1a8b9ba3ea71e1f41dc0ec') in 0.012338 seconds 
+  Import took 0.022507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040378 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dbb7c80c1a8b9ba3ea71e1f41dc0ec') in 0.012880 seconds 
+  Import took 0.020609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.537214 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0857ab74f4e01caedd9b9336464ed00') in 0.010413 seconds 
+  Import took 0.021047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036403 seconds.
+  path: Assets/場景素材/Background/scene_03_floor.png
+  artifactKey: Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_floor.png using Guid(d4e84129b9de1418ca81e8545a6b1378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0857ab74f4e01caedd9b9336464ed00') in 0.015008 seconds 
+  Import took 0.028438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.100176 seconds.
+  path: Assets/場景素材/Background/scene_02_floor.png
+  artifactKey: Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_floor.png using Guid(c56b76b6ff8224d1788cf702b6155ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f8739d1c0ecf294b310f6d1deaaf51') in 0.017775 seconds 
+  Import took 0.051632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.808661 seconds.
+  path: Assets/場景素材/Background/scene_01_floor.png
+  artifactKey: Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2052da2a9879b10d569b1305a81424be') in 0.012931 seconds 
+  Import took 0.022230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036355 seconds.
+  path: Assets/場景素材/Background/scene_01_floor.png
+  artifactKey: Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_floor.png using Guid(a2d221460c5b34e13b3176d59204316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2052da2a9879b10d569b1305a81424be') in 0.011808 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.220512 seconds.
   path: Assets/場景素材/Background/scene_03_forground.png
   artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b407aba1403dad8509a74f3cac0866') in 0.013676 seconds 
-  Import took 0.021840 seconds .
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c20db7c15eaf313e8756acdbdf35af8') in 0.018002 seconds 
+  Import took 0.027542 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002194 seconds.
+  Time since last request: 0.039360 seconds.
   path: Assets/場景素材/Background/scene_03_forground.png
   artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b407aba1403dad8509a74f3cac0866') in 0.011558 seconds 
-  Import took 0.019995 seconds .
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c20db7c15eaf313e8756acdbdf35af8') in 0.010698 seconds 
+  Import took 0.020067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24819.038785 seconds.
-  path: Assets/場景素材/Background/scene_03_blockDown.asset
-  artifactKey: Guid(16225404f1a15cf4a8dd511cf53fa0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景素材/Background/scene_03_blockDown.asset using Guid(16225404f1a15cf4a8dd511cf53fa0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4515b4cbc32d724663f43be1d6ab54d4') in 1.223468 seconds 
-  Import took 1.414854 seconds .
+  Time since last request: 7.223978 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f423920b9f0fe92ac33d6888e2952') in 0.008570 seconds 
+  Import took 0.019631 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.884178 seconds.
-  path: Assets/調色盤/scene_01_background.asset
-  artifactKey: Guid(864feaa0c9dab864fa99fc42e1a27376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_background.asset using Guid(864feaa0c9dab864fa99fc42e1a27376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9da6c45d37c03a1f6dba6c72a1a0c') in 0.033295 seconds 
-  Import took 0.067660 seconds .
+  Time since last request: 0.053228 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f423920b9f0fe92ac33d6888e2952') in 0.018711 seconds 
+  Import took 0.029165 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000869 seconds.
-  path: Assets/調色盤/scene_01_blockTop.asset
-  artifactKey: Guid(be89a2848c16c4f4ba22b1eb1fda0159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_blockTop.asset using Guid(be89a2848c16c4f4ba22b1eb1fda0159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b854b4d3816ed4e2fa0cd6536e03cf') in 0.007425 seconds 
-  Import took 0.015526 seconds .
+  Time since last request: 20.666844 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bf05aa75294a9266e1f2396fa9c84f') in 0.009862 seconds 
+  Import took 0.023293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000791 seconds.
-  path: Assets/調色盤/scene_01_blockDown.asset
-  artifactKey: Guid(2f2f3d527b0d41c41879bd8ca701c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_blockDown.asset using Guid(2f2f3d527b0d41c41879bd8ca701c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251141ac15d00a30bb1dc479bfcec05e') in 0.028709 seconds 
-  Import took 0.038359 seconds .
+  Time since last request: 0.054789 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bf05aa75294a9266e1f2396fa9c84f') in 0.011834 seconds 
+  Import took 0.022718 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002119 seconds.
-  path: Assets/調色盤/scene_02_blockDown.asset
-  artifactKey: Guid(f9fd38885d1b65b42917fe0e99f3ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_02_blockDown.asset using Guid(f9fd38885d1b65b42917fe0e99f3ebe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bee77acd11820754ce235de4e7d9276') in 0.018787 seconds 
-  Import took 0.033908 seconds .
+  Time since last request: 3.762585 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245d8e78c6e0e7bd198392fbb9be3a68') in 0.010913 seconds 
+  Import took 0.019359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001014 seconds.
-  path: Assets/調色盤/scene_02_blockTop.asset
-  artifactKey: Guid(1fdf1cd7cd71a0442b849025fa84fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_02_blockTop.asset using Guid(1fdf1cd7cd71a0442b849025fa84fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d31eb6a996b6bbe067b8db574948f7') in 0.020628 seconds 
-  Import took 0.058367 seconds .
+  Time since last request: 0.029623 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245d8e78c6e0e7bd198392fbb9be3a68') in 0.013471 seconds 
+  Import took 0.034226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001077 seconds.
-  path: Assets/調色盤/scene_01_sky.asset
-  artifactKey: Guid(36ccb6c6f6c28a04bb256f3f8bd0a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_sky.asset using Guid(36ccb6c6f6c28a04bb256f3f8bd0a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c459208a9872eef13c0df5632253a82') in 0.021230 seconds 
-  Import took 0.062165 seconds .
+  Time since last request: 6.096081 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449ade74c614f87c9ea96c1f8a655ba') in 0.009644 seconds 
+  Import took 0.037385 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001118 seconds.
-  path: Assets/調色盤/scene_01_background.asset
-  artifactKey: Guid(864feaa0c9dab864fa99fc42e1a27376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_background.asset using Guid(864feaa0c9dab864fa99fc42e1a27376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9da6c45d37c03a1f6dba6c72a1a0c') in 0.011255 seconds 
-  Import took 0.039745 seconds .
+  Time since last request: 0.014854 seconds.
+  path: Assets/場景素材/Background/scene_03_forground.png
+  artifactKey: Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_forground.png using Guid(98faea71df2084796856b7213d9ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449ade74c614f87c9ea96c1f8a655ba') in 0.010290 seconds 
+  Import took 0.020772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001763 seconds.
-  path: Assets/調色盤/scene_01_floor.asset
-  artifactKey: Guid(7a01cf14b90d9d643a8b45fbf128e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/scene_01_floor.asset using Guid(7a01cf14b90d9d643a8b45fbf128e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d962ec9b76912da03389d5155b9fd20') in 0.027956 seconds 
-  Import took 0.037571 seconds .
+  Time since last request: 18.166576 seconds.
+  path: Assets/場景素材/Background/scene_02_forground.png
+  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbefba10b935b366555df0f60e17a48') in 0.016587 seconds 
+  Import took 0.025837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029697 seconds.
+  path: Assets/場景素材/Background/scene_02_forground.png
+  artifactKey: Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_02_forground.png using Guid(6632a59647e074121b3c5530d63647ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbefba10b935b366555df0f60e17a48') in 0.011684 seconds 
+  Import took 0.024556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.029869 seconds.
+  path: Assets/場景素材/Background/scene_01_forground.png
+  artifactKey: Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_01_forground.png using Guid(728fe48d56d7244d1a37e04381680758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d66005575c6cc877a74cab3dec85a') in 0.090114 seconds 
+  Import took 0.268651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.645244 seconds.
+  path: Assets/場景素材/Background/scene_03_background.png
+  artifactKey: Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Background/scene_03_background.png using Guid(30b676008d2e84fd68c05129cb68718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea39fe6b782be193c747fd32c4d46d4a') in 0.098593 seconds 
+  Import took 0.293021 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
