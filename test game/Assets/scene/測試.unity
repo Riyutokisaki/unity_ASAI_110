@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 2031660490}
   - component: {fileID: 2031660492}
   - component: {fileID: 2031660493}
+  - component: {fileID: 2031660494}
   m_Layer: 0
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
@@ -1414,7 +1415,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031660488}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1433,6 +1434,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 61.98, y: 11.35}
   m_EdgeRadius: 0
+--- !u!19719996 &2031660494
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031660488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &2091988751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,7 +1574,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2091988757
 BoxCollider2D:
   m_ObjectHideFlags: 0
