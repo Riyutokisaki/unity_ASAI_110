@@ -758,10 +758,8 @@ GameObject:
   - component: {fileID: 2031660489}
   - component: {fileID: 2031660491}
   - component: {fileID: 2031660490}
-  - component: {fileID: 2031660492}
-  - component: {fileID: 2031660493}
   - component: {fileID: 2031660494}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1382,58 +1380,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!61 &2031660492
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031660488}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 9.65, y: -3.41}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 49, y: 1.13}
-  m_EdgeRadius: 0
---- !u!61 &2031660493
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031660488}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 70.94, y: -3}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 61.98, y: 11.35}
-  m_EdgeRadius: 0
 --- !u!19719996 &2031660494
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,10 +1405,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2091988754}
+  - component: {fileID: 2091988755}
   - component: {fileID: 2091988753}
-  - component: {fileID: 2091988752}
   - component: {fileID: 2091988756}
   - component: {fileID: 2091988757}
+  - component: {fileID: 2091988752}
   m_Layer: 0
   m_Name: Jelly 3
   m_TagString: Untagged
@@ -1480,7 +1427,7 @@ Animator:
   m_GameObject: {fileID: 2091988751}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0d3842a994495234589cb6d54c1215e2, type: 2}
+  m_Controller: {fileID: 9100000, guid: a341f81b9d938ff41ac62b86c6e6d284, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1554,6 +1501,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091988755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091988751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744137879e546ba42aec1bbd04de67aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 3.5
+  Jump: 300
+  CheckGroundRadius: 0.08
+  CheckGroundOffset: {x: 0.1, y: 0.03, z: 0}
+  keyJemp: 32
+  Layer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!50 &2091988756
 Rigidbody2D:
   serializedVersion: 4
