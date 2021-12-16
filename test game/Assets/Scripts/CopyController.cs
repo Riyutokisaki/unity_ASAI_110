@@ -4,7 +4,7 @@ using UnityEngine;
 /// 角色控制器
 /// </summary>
 
-public class NewController : MonoBehaviour
+public class CopyController : MonoBehaviour
 {
     #region 公開欄位
     [Header("移動速度"), Range(0,500)]
@@ -31,8 +31,6 @@ public class NewController : MonoBehaviour
     [SerializeField]
     //是否在地上(否)
     private bool isGrounded;
-    [SerializeField]
-    private int doubleJump =0;
 
     /// <summary>
     /// 繪製圖示
@@ -115,11 +113,7 @@ public class NewController : MonoBehaviour
         //print("碰到的圖層" + hit.name);
         //將測定到的布林值觸發(是)
         isGrounded = hit;
-        //如果角色在地板上 把二段跳觸發歸0
-        if (isGrounded == true)
-        {
-            doubleJump = 0;
-        }
+
         //當物件不在地上勾選跳躍
         an.SetBool(Up, !isGrounded);
 
@@ -129,15 +123,12 @@ public class NewController : MonoBehaviour
     /// </summary>
     private void KeyJump()
     {
-        //如果 (二段跳觸發<2(跳躍次數))或是在地板上) 且 按下按鍵(空白鍵)
-        if ((doubleJump <= 1 || isGrounded)&& Input.GetKeyDown("space"))
+        //如果 在地板上 且 按下按鍵(空白鍵)
+        if (isGrounded && Input.GetKeyDown("space"))
         {
             //剛體名稱(在欄位有寫).添加推力(新的二維向量(X.Y))(向上 填寫Y)
             rig.AddForce(new Vector2(0, Jump));
-
-            doubleJump++ ;
         }
-        
     }
 
     #endregion
