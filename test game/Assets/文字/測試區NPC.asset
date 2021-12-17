@@ -10,11 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e42386ae20e642241a1e5417d0131f89, type: 3}
-  m_Name: NPC
+  m_Name: "\u6E2C\u8A66\u5340NPC"
   m_EditorClassIdentifier: 
   NPC:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - HI
+  - HI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
