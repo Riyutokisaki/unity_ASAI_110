@@ -25,7 +25,6 @@ public class NewController : MonoBehaviour
     //剛體元件
     private Rigidbody2D rig;
     //動畫元件
-    [SerializeField]
     private Animator an;
     //將私人欄位顯示在屬性面板(不能更改)
     [SerializeField]
@@ -33,7 +32,8 @@ public class NewController : MonoBehaviour
     private bool isGrounded;
     [SerializeField]
     private int doubleJump =0;
-
+    [SerializeField]
+    private bool speedRun;
     /// <summary>
     /// 繪製圖示
     /// 在unity繪製輔助用圖形
@@ -88,6 +88,23 @@ public class NewController : MonoBehaviour
 
         //當 水平值 不等於0(!=0) 勾選走路
         an.SetBool(Walk, h != 0);
+
+        if (speedRun && h != 0 && Input.GetKeyDown("space"))
+        {
+            Speed++;
+        }
+        else if (h != 0 && Input.GetKeyDown("space"))
+        {
+            Speed = 5.5f;
+
+            speedRun = true;
+        }
+        if (rig.velocity.x == 0)
+        {
+            Speed = 3.5f;
+
+            speedRun = false;
+        }
     }
 
     //翻面 h<往左Y軸角度180 h>往右y角度0
@@ -130,7 +147,7 @@ public class NewController : MonoBehaviour
     private void KeyJump()
     {
         //如果 (二段跳觸發<2(跳躍次數))或是在地板上) 且 按下按鍵(空白鍵)
-        if ((doubleJump <= 1 || isGrounded)&& Input.GetKeyDown("space"))
+        if ((doubleJump <= 1 || isGrounded)&& Input.GetKeyDown("w"))
         {
             //剛體名稱(在欄位有寫).添加推力(新的二維向量(X.Y))(向上 填寫Y)
             rig.AddForce(new Vector2(0, Jump));
