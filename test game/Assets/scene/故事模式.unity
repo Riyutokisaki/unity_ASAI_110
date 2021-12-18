@@ -488,8 +488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 36963fdec5be5c94da9aea92d459b86c, type: 2}
+  dataDialogue2: {fileID: 0}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &179646555
 Animator:
   serializedVersion: 3
@@ -1037,8 +1039,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 17b1eb9731f2da1489725a4fe4eadb0c, type: 2}
+  dataDialogue2: {fileID: 11400000, guid: f779b85203c2dca43ae8507e11204cb4, type: 2}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &605172381
 Animator:
   serializedVersion: 3
@@ -1531,8 +1535,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 8521266e50695bd4faa6edcb15705a60, type: 2}
+  dataDialogue2: {fileID: 0}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &849937203
 Animator:
   serializedVersion: 3
@@ -1928,7 +1934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be500d2687804845b9e92640d1ff6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 0.2
+  interval: 0.1
   textTito: {fileID: 940094053}
   goDialogue: {fileID: 1345074761}
   textContent: {fileID: 109537162}
@@ -3152,8 +3158,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 4136ea3684d6d7b4bb65a3227734f4f1, type: 2}
+  dataDialogue2: {fileID: 11400000, guid: f779b85203c2dca43ae8507e11204cb4, type: 2}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &1252666637
 Animator:
   serializedVersion: 3
@@ -5855,7 +5863,7 @@ GameObject:
   m_Layer: 0
   m_Name: "\u8EDF\u7CD6\u611B\u5FB7\u83EF"
   m_TagString: Untagged
-  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5963,8 +5971,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 55be304779e478b428c94f72c58f3708, type: 2}
+  dataDialogue2: {fileID: 11400000, guid: f779b85203c2dca43ae8507e11204cb4, type: 2}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &1767563218
 Animator:
   serializedVersion: 3
@@ -6742,8 +6752,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataDialogue: {fileID: 11400000, guid: 2cc27cd89765ba247943ad55373ec702, type: 2}
+  dataDialogue2: {fileID: 0}
   dialongueSystem: {fileID: 988529240}
   Player: "\u4E3B\u89D2"
+  Read: 0
 --- !u!95 &1999824372
 Animator:
   serializedVersion: 3
