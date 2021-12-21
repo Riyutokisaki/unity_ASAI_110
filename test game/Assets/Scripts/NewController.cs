@@ -20,20 +20,20 @@ public class NewController : MonoBehaviour
     [Header("動畫參數")]//動畫控制器內的開關
     public string Walk = "isWalk";
     public string Up = "doTouch";
+    public string Die = "死亡";
     #endregion
 
-    //剛體元件
-    private Rigidbody2D rig;
-    //動畫元件
-    private Animator an;
-    //將私人欄位顯示在屬性面板(不能更改)
-    [SerializeField]
-    //是否在地上(否)
-    private bool isGrounded;
-    [SerializeField]
-    private int doubleJump =0;
-    [SerializeField]
-    private bool speedRun;
+    #region 私人欄位
+    private Rigidbody2D rig;  //剛體元件
+    private Animator an;  //動畫元件
+    //[SerializeField]將私人欄位顯示在屬性面板(不能更改)
+    private bool isGrounded;//是否在地上(否)
+    //[SerializeField]
+    private int doubleJump =0;//跳躍次數
+    //[SerializeField]
+    private bool speedRun;//跳了第1次了嗎?
+
+    #endregion
     /// <summary>
     /// 繪製圖示
     /// 在unity繪製輔助用圖形
@@ -154,6 +154,18 @@ public class NewController : MonoBehaviour
 
             doubleJump++ ;
         }
+        
+    }
+
+    public void Death()
+    {
+        ///<summary>
+        ///碰到箱子播放死亡 開啟UI
+        ///</summary>
+        an.SetTrigger(Die);
+        
+        storyModeGameOverUI gameOverUI= GetComponent<storyModeGameOverUI>();
+        gameOverUI.Over();
         
     }
 
