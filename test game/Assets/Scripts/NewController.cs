@@ -21,6 +21,12 @@ public class NewController : MonoBehaviour
     public string Walk = "isWalk";
     public string Up = "doTouch";
     public string Die = "死亡";
+    [Header("遊戲管理")]
+    public GameManager gameManager;
+    [Header("障礙物")]
+    public GameObject box;
+    [Header("回首頁")]
+    public GameObject backHome;
     #endregion
 
     #region 私人欄位
@@ -73,6 +79,25 @@ public class NewController : MonoBehaviour
         KeyJump();
     }
 
+
+    /// <summary>
+    /// OnCollision(碰撞)與OnTrigger(觸發)不同在編寫時要注意
+    /// 1.兩個物件都要有Collider且其中之一要有剛體(Rigidbody)元件
+    /// 2.都 "不" 勾選IsTrigger
+    /// </summary>
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+       //與Trigger不同不使用字串判斷，而是指定GameObject
+        if (collision.gameObject == box)//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
+        {
+            gameManager.GameOver();//呼叫gameManager中的Game方法
+        }
+
+        if (collision.gameObject == backHome)//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
+        {
+            gameManager.ButtonHome();//呼叫gameManager中的Game方法
+        }
+    }
 
     # region 方法
     /// <summary>
@@ -154,18 +179,6 @@ public class NewController : MonoBehaviour
 
             doubleJump++ ;
         }
-        
-    }
-
-    public void Death()
-    {
-        ///<summary>
-        ///碰到箱子播放死亡 開啟UI
-        ///</summary>
-        an.SetTrigger(Die);
-        
-        storyModeGameOverUI gameOverUI= GetComponent<storyModeGameOverUI>();
-        gameOverUI.Over();
         
     }
 
