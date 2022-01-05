@@ -11,14 +11,14 @@ public class Spawner : MonoBehaviour
     private float timer = 0f;
 
     [Header("生成物件")]
-    public GameObject box;
+    public GameObject[] box;
 
-    public float hight;
+    public float hight =2f;
     #endregion
 
-    private void Start()
+    private void Awake()
     {
-        GameObject newbox = Instantiate(box);
+        GameObject newbox = Instantiate(box[0]);
         newbox.transform.position = transform.position + new Vector3(0, Random.Range(-hight, hight), 0);
     }
 
@@ -26,12 +26,15 @@ public class Spawner : MonoBehaviour
     {
         if (timer > maxtime)
         {
-            GameObject newbox = Instantiate(box);
+            GameObject newbox = Instantiate(box[0]);
+            GameObject newCloud = Instantiate(box[1]);
+            newCloud.transform.position = transform.position + new Vector3(0, Random.Range(hight*5, hight*10), 0);
             newbox.transform.position = transform.position + new Vector3(0, Random.Range(-hight, hight), 0);
-            Destroy(newbox, 15);
             
+
             timer = 0;
         }
         timer += Time.deltaTime;
+        
     }
 }
