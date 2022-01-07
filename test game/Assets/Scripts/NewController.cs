@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 角色控制器
@@ -27,6 +28,9 @@ public class NewController : MonoBehaviour
     public GameObject box;
     [Header("回首頁")]
     public GameObject backHome;
+    [Header("碰到之後等幾秒"),Range(0,50)]
+    public float waitTime = 0.5f;
+    
     #endregion
 
     #region 私人欄位
@@ -38,7 +42,10 @@ public class NewController : MonoBehaviour
     private int doubleJump =0;//跳躍次數
     //[SerializeField]
     private bool speedRun;//跳了第1次了嗎?
-
+  
+    //等待動畫播畢
+    private float ANTime;
+    private bool isDie;
     #endregion
     /// <summary>
     /// 繪製圖示
@@ -62,6 +69,7 @@ public class NewController : MonoBehaviour
         //在遊戲開始時讀取物件的剛體與動畫控制器
         rig = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
+        ANTime = 0f;
     }
    
     //Update 約60FPS
@@ -77,6 +85,11 @@ public class NewController : MonoBehaviour
         Flip();
         CheckGround();
         KeyJump();
+        if (isDie)
+        {
+            Wait();
+        }
+
     }
 
 
@@ -90,7 +103,9 @@ public class NewController : MonoBehaviour
        //與Trigger不同不使用字串判斷，而是指定GameObject
         if (collision.gameObject == box)//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
         {
-            gameManager.GameOver();//呼叫gameManager中的Game方法
+            an.SetTrigger(Die);
+            isDie = true;
+
         }
 
         if (collision.gameObject == backHome)//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
@@ -180,6 +195,19 @@ public class NewController : MonoBehaviour
             doubleJump++ ;
         }
         
+    }
+
+    void Wait()
+    {
+        if (ANTime < waitTime)
+        {
+            ANTime += Time.deltaTime;
+        }
+        else
+        {
+            gameManager.GameOver();//呼叫gameManager中的Game方法
+        }
+
     }
 
     #endregion

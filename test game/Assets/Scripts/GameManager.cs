@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;//引用事件
 
 /// <summary>
 /// 按鈕與呼叫面板
@@ -28,13 +29,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    public void ButtonStory()
+    public void Button(string nameScene)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(nameScene);
     }
-    public void ButtonGeneral()
-    {
-        SceneManager.LoadScene(2);
-    }
+  
     #endregion
 }

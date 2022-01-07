@@ -626,14 +626,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2010265935}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ButtonGeneral
-        m_Mode: 1
+        m_MethodName: Button
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: "\u4E00\u822C\u6A21\u5F0F"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &302155426
@@ -2246,16 +2246,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 1824566599}
     m_Modifications:
     - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2010265935}
     - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ButtonStory
+      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: "\u6545\u4E8B\u6A21\u5F0F"
       objectReference: {fileID: 0}
     - target: {fileID: 1127915478376472064, guid: 1212453b09ce513419496607a3eb4bd1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

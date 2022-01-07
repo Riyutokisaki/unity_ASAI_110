@@ -6,8 +6,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     #region 欄位
-    public float maxtime = 1f;
-
+    public float maxtime = 4f;
     private float timer = 0f;
 
     [Header("生成物件")]
@@ -24,7 +23,8 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
-        if (timer > maxtime)
+        float h = Input.GetAxis("Horizontal");
+        if (timer > maxtime || h != 0)
         {
             GameObject newbox = Instantiate(box[0]);
             GameObject newCloud = Instantiate(box[1]);

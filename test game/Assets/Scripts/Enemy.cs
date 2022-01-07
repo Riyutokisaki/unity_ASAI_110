@@ -21,10 +21,15 @@ public class Enemy : MonoBehaviour
     public string die = "死亡";
     [Header("面向目標物件")]
     public Transform target;
+    [Header("攻擊距離"), Range(0, 5)]
+    public float attackDistanca = 1.3f;
+    [Header("攻擊冷卻"),Range(0,10)]
+    public float attackcold = 2.8f;
 
     private float angle = 0;
     private Rigidbody2D rig;
     private Animator ani;
+
     #endregion
     #region 事件
     private void OnDrawGizmos()
@@ -54,7 +59,7 @@ public class Enemy : MonoBehaviour
         //2D 物理.覆蓋盒型(中心,尺寸,角度)
         Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrsckOffset), v3TrackSize, 0,layerTarget);
 
-        if (hit) Move();
+        if (hit) Move(); 
     }
 
     private void Move()
@@ -63,11 +68,11 @@ public class Enemy : MonoBehaviour
         //如果 目標的X > 敵人的X就代表左邊 角度 180
         if (target.position.x > transform.position.x)
         {
-            //右邊angle=180
+            angle = 180;//右邊
         }
-        else if (target.position.x > transform.position.x)
+        else if (target.position.x < transform.position.x)
         {
-            //左邊 angle=0
+            angle = 0;//左邊 
         }
         //三元運算子語法 : 布林值 ? 當布林值 為 true : 當布林值 為false ;
         angle = target.position.x > transform.position.x ? 180 : 0;//翻面
@@ -79,6 +84,13 @@ public class Enemy : MonoBehaviour
 
         //距離=三維向量.距離(A點,B點) 導出float 可用於2、3、4
         float distance = Vector3.Distance(target.position, transform.position);
+        print("與目標距離" + distance);
+
+
+        if (distance <= attackDistanca)//如果距離小於等於攻擊距離
+        {
+            rig.velocity = Vector3.zero;//停止
+        }
     }
     #endregion
 }
