@@ -9,14 +9,16 @@ public class BoxMove : MonoBehaviour
     [Header("箱子移動速度")]
     public float speed =0.05f;
     [Header("偵測碰撞")]
-    public NewController player;
+    public GameObject player;
     private GameManager gameManager;
     #endregion
     private void Awake()
     {
         //出現後取得場景上的manager.裡面的C#
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-        
+        player = GameObject.Find("主角");
+
+        Destroy(gameObject, 20f);
     }
     void FixedUpdate()
     {
@@ -25,14 +27,17 @@ public class BoxMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //print("碰到了" + collision.gameObject);
-        player = collision.gameObject.GetComponent<NewController>();
+        
+        //bool getBool = collision.gameObject.GetComponent<Partners>().get;
+
         //print("碰到了" + player);
         //與Trigger不同不使用字串判斷，而是指定GameObject
-        //if (collision.gameObject == player)//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
-        //{
-            gameManager.GameOver();//呼叫gameManager中的Game方法
-        //}
+        if ((collision.gameObject == player) )//|| getBool
+        {  
+            print("碰到了" + collision.gameObject);
+            gameManager.GameOver();
+        }//呼叫gameManager中的Game方法//若碰撞到的GameObject是box(此c#中障礙物的名稱)則
+       
     }
     #region 方法
     void Move()

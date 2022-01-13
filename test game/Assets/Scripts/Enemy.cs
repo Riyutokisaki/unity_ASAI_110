@@ -84,7 +84,7 @@ public class Enemy : MonoBehaviour
 
         //距離=三維向量.距離(A點,B點) 導出float 可用於2、3、4
         float distance = Vector3.Distance(target.position, transform.position);
-        print("與目標距離" + distance);
+        //print("與目標距離" + distance);
 
 
         if (distance <= attackDistanca)//如果距離小於等於攻擊距離

@@ -29,6 +29,9 @@ public class Controller : MonoBehaviour
     public GameObject backHome;
     [Header("碰到之後等幾秒"), Range(0, 50)]
     public float waitTime = 0.5f;
+    [Header("音效")]
+    public AudioSource audio;
+    public AudioClip shootAudio;
 
     #endregion
 
@@ -37,13 +40,15 @@ public class Controller : MonoBehaviour
     private Animator an;  //動畫元件
     //[SerializeField]將私人欄位顯示在屬性面板(不能更改)
     private bool isGrounded;//是否在地上(否)
-    [SerializeField]
+    //[SerializeField]
     private int doubleJump =0;//跳躍次數
-    [SerializeField]
+    //[SerializeField]
     private bool speedRun;//跳了第1次了嗎?
     //等待動畫播畢
     private float ANTime;
     private bool isDie;
+    //位置校正
+    private Vector3 set;
     #endregion
     /// <summary>
     /// 繪製圖示
@@ -67,6 +72,8 @@ public class Controller : MonoBehaviour
         //在遊戲開始時讀取物件的剛體與動畫控制器
         rig = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
+        set = transform.position;
     }
    
     //Update 約60FPS
@@ -86,6 +93,7 @@ public class Controller : MonoBehaviour
         {
             Wait();
         }
+        
     }
 
 
@@ -172,10 +180,11 @@ public class Controller : MonoBehaviour
         if (isGrounded == true)
         {
             doubleJump = 0;
+            if (transform.position.x>8.5f) transform.position = set;
         }
         //當物件不在地上勾選跳躍
         an.SetBool(Up, !isGrounded);
-
+       
     }
     /// <summary>
     /// 跳躍方法
@@ -183,11 +192,11 @@ public class Controller : MonoBehaviour
     private void KeyJump()
     {
         //如果 (二段跳觸發<2(跳躍次數))或是在地板上) 且 按下按鍵(空白鍵)
-        if ((doubleJump <= 0 || isGrounded)&& Input.GetKeyDown("w"))
+        if ((doubleJump <= 1 || isGrounded)&& Input.GetKeyDown("w"))
         {
             //剛體名稱(在欄位有寫).添加推力(新的二維向量(X.Y))(向上 填寫Y)
             rig.AddForce(new Vector2(0, Jump));
-
+            Play(shootAudio);
             doubleJump++ ;
         }
         
@@ -205,6 +214,9 @@ public class Controller : MonoBehaviour
         }
 
     }
-
+    public void Play(AudioClip clip)
+    {
+        audio.PlayOneShot(clip);
+    }
     #endregion
 }

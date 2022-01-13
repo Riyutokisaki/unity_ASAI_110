@@ -6,13 +6,11 @@ public class ReRunway : MonoBehaviour
     #region Äæ¦ì
 
     #endregion
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("¸I¨ì¤F" + collision.gameObject);
         Destroy(collision.gameObject);
-
     }
+    
 
  
 }

@@ -30,7 +30,10 @@ public class NewController : MonoBehaviour
     public GameObject backHome;
     [Header("碰到之後等幾秒"),Range(0,50)]
     public float waitTime = 0.5f;
-    
+    [Header("音效")]
+    public AudioSource audio;
+    public AudioClip shootAudio;
+
     #endregion
 
     #region 私人欄位
@@ -70,6 +73,7 @@ public class NewController : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
         ANTime = 0f;
+        audio = GetComponent<AudioSource>();
     }
    
     //Update 約60FPS
@@ -179,7 +183,7 @@ public class NewController : MonoBehaviour
         }
         //當物件不在地上勾選跳躍
         an.SetBool(Up, !isGrounded);
-
+        
     }
     /// <summary>
     /// 跳躍方法
@@ -191,7 +195,7 @@ public class NewController : MonoBehaviour
         {
             //剛體名稱(在欄位有寫).添加推力(新的二維向量(X.Y))(向上 填寫Y)
             rig.AddForce(new Vector2(0, Jump));
-
+            Play(shootAudio);
             doubleJump++ ;
         }
         
@@ -209,6 +213,9 @@ public class NewController : MonoBehaviour
         }
 
     }
-
+    public void Play(AudioClip clip)
+    {
+        audio.PlayOneShot(clip);
+    }
     #endregion
 }

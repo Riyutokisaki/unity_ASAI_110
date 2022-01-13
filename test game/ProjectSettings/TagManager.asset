@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - friend
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - "\u908A\u754C\u5075\u6E2C"
   - player
   - "\u969C\u7919\u7269"
-  - 
+  - friend
   - 
   - 
   - 

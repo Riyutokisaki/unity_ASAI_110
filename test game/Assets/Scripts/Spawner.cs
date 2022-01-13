@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
     private void Update()
     {
         float h = Input.GetAxis("Horizontal");
-        if (timer > maxtime || h != 0)
+        if (timer > maxtime && h != 0)
         {
             GameObject newbox = Instantiate(box[0]);
             GameObject newCloud = Instantiate(box[1]);

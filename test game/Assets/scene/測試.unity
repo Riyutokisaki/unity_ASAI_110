@@ -1104,7 +1104,6 @@ GameObject:
   - component: {fileID: 1048822014}
   - component: {fileID: 1048822015}
   - component: {fileID: 1048822017}
-  - component: {fileID: 1048822016}
   m_Layer: 0
   m_Name: Jelly 4
   m_TagString: Untagged
@@ -1233,35 +1232,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1048822016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048822010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a774a5a213352e49a6db6435a12bc72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 3.5
-  Jump: 300
-  CheckGroundRadius: 0.1
-  CheckGroundOffset: {x: 0, y: 0, z: 0}
-  keyJemp: 32
-  Layer:
-    serializedVersion: 2
-    m_Bits: 0
-  Walk: isWalk
-  Up: doTouch
-  Die: "\u6B7B\u4EA1"
-  gameManager: {fileID: 0}
-  box: {fileID: 0}
-  backHome: {fileID: 0}
-  waitTime: 0.5
-  doubleJump: 0
-  speedRun: 0
 --- !u!114 &1048822017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,7 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   get: 0
-  player: {fileID: 0}
+  player: {fileID: 2091988751}
   plTransform: {fileID: 0}
   speed: 0.2
   walk: "\u8D70\u8DEF"
@@ -1588,7 +1558,7 @@ GameObject:
   - component: {fileID: 2031660491}
   - component: {fileID: 2031660490}
   - component: {fileID: 2031660494}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2416,8 +2386,8 @@ GameObject:
   - component: {fileID: 2091988757}
   - component: {fileID: 2091988752}
   m_Layer: 7
-  m_Name: Jelly 3
-  m_TagString: Untagged
+  m_Name: "\u4E3B\u89D2"
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

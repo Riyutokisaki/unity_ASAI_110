@@ -94,10 +94,9 @@ GameObject:
   - component: {fileID: 4804837405516396743}
   - component: {fileID: 5100929181689214614}
   - component: {fileID: 2895256703958042403}
-  - component: {fileID: -8262585094650400461}
   m_Layer: 8
   m_Name: BOX
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,21 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78680078ef277834597636be27550ea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.05
-  player: {fileID: 0}
---- !u!114 &-8262585094650400461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404925433177902470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78680078ef277834597636be27550ea6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.05
+  speed: 0.1
   player: {fileID: 0}
 --- !u!1 &3223257097648211197
 GameObject:
